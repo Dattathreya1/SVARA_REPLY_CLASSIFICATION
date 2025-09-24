@@ -7,10 +7,11 @@ This project demonstrates the full pipeline:
 * **Environment management** (`requirements.txt`)
 * Optional **Transformer fine-tuning** for greater robustness
 
-Repository includes:
+Repository mainly includes:
 - `app.py`: FastAPI app exposing `/predict`.
 - `Dockerfile`: Container configuration.
 - `requirements.txt`: Python dependencies.
+- `answers.md`:answering few questions
 - `SVARA.ipynb`: Notebook for data prep/training.
 
 ## Run locally
