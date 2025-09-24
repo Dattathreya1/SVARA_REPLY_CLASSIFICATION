@@ -18,7 +18,7 @@ Repository mainly includes:
 1️⃣ Clone the Repository
 ```
 git clone https://github.com/Dattathreya1/SVARA_REPLY_CLASSIFICATION.git
-cd reply-classifier
+cd SVARA_REPLY_CLASSIFICATION
 ```
 
 2️⃣ (Optional but Recommended) Create a Virtual Environment
