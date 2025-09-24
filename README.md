@@ -48,6 +48,7 @@ Interactive Swagger UI
 Visit http://127.0.0.1:8000/docs
 , click POST /predict, then Try it out and enter:
 ```
+Example Text
 {
   "text": "Looks good—schedule a demo"
 }
