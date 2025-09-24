@@ -54,11 +54,6 @@ Visit http://127.0.0.1:8000/docs
 ```
 Click Execute to receive a JSON prediction.
 
-Example response:
-```
-{"label":"positive","confidence":0.97}
-```
-
 ## Docker
 ```
 docker build -t reply-classifier .
