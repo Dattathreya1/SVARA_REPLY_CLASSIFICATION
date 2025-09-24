@@ -54,14 +54,27 @@ Interactive Swagger UI
 Visit http://127.0.0.1:8000/docs
 , click POST /predict, then Try it out and enter:
 The user interface will look like
-<img width="1920" height="1080" alt="Screenshot 2025-09-24 191353" src="https://github.com/user-attachments/assets/7720285f-5990-41fd-9436-0abac665ba3c" />
 
+<img width="1920" height="1022" alt="Screenshot 2025-09-24 191353" src="https://github.com/user-attachments/assets/ecbc04a9-6fa5-4ba1-ab20-98afd0d7ed2c" />
+
+
+Click on "Post\Predict" and click on "try it out" 
+
+<img width="1914" height="1025" alt="Screenshot 2025-09-24 193252" src="https://github.com/user-attachments/assets/025d1ec2-aa94-411c-b7bc-89fdfa9a6caa" />
+
+At the place of string write some text EXAMPLE:
 ```
 {
   "text": "Looks good—schedule a demo"
 }
 ```
 Click Execute to receive a JSON prediction.
+
+It will show the prediction with accuracy.
+
+<img width="1919" height="1026" alt="Screenshot 2025-09-24 193717" src="https://github.com/user-attachments/assets/de820a69-cfd3-46bc-bc6e-28fc561c4119" />
+
+
 
 ## Docker
 ```
