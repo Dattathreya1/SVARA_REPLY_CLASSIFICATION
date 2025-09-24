@@ -12,7 +12,13 @@ Repository mainly includes:
 - `Dockerfile`: Container configuration.
 - `requirements.txt`: Python dependencies.
 - `answers.md`:answering few questions
-- `SVARA.ipynb`: Notebook for data prep/training.
+
+Click and open the link in google Colab, before executing all cells make sure
+reply_classification_dataset.csv file is uploaded and HARDWARE ACCELERATOR in Change runtime type is set to GPU
+```
+https://colab.research.google.com/drive/1irGwQXg2HLIG0HZPK3izDFBdY_GZm4zy#scrollTo=NdnUMm76FjdH
+```
+You can see baseline_tfidf_logreg.pkl file is downloaded.
 
 🚀 Quick Start – Run Locally
 1️⃣ Clone the Repository
