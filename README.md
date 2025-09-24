@@ -53,15 +53,16 @@ Test the API
 Interactive Swagger UI
 Visit http://127.0.0.1:8000/docs
 , click POST /predict, then Try it out and enter:
-The user interface will look like
+The user interface will looks like:
 
 <img width="1920" height="1022" alt="Screenshot 2025-09-24 191353" src="https://github.com/user-attachments/assets/ecbc04a9-6fa5-4ba1-ab20-98afd0d7ed2c" />
 
-Click on "Post\Predict" and click on "try it out" 
+Click on "Post\Predict" and click on "try it out":
 
 <img width="1914" height="1025" alt="Screenshot 2025-09-24 193252" src="https://github.com/user-attachments/assets/025d1ec2-aa94-411c-b7bc-89fdfa9a6caa" />
 
-At the place of string write some text EXAMPLE:
+At the place of string enter some text
+EXAMPLE:
 
 ```
 {
