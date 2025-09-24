@@ -53,7 +53,9 @@ Test the API
 Interactive Swagger UI
 Visit http://127.0.0.1:8000/docs
 , click POST /predict, then Try it out and enter:
-Example Text
+The user interface will look like
+<img width="1920" height="1080" alt="Screenshot 2025-09-24 191353" src="https://github.com/user-attachments/assets/7720285f-5990-41fd-9436-0abac665ba3c" />
+
 ```
 {
   "text": "Looks good—schedule a demo"
