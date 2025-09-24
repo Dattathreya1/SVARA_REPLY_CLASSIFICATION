@@ -14,10 +14,49 @@ Repository mainly includes:
 - `answers.md`:answering few questions
 - `SVARA.ipynb`: Notebook for data prep/training.
 
-## Run locally
+🚀 Quick Start – Run Locally
+1️⃣ Clone the Repository
+```
+git clone https://github.com/Dattathreya1/SVARA_REPLY_CLASSIFICATION.git
+cd reply-classifier
+```
+
+2️⃣ (Optional but Recommended) Create a Virtual Environment
+```
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
+```
+
+3️⃣ Install Dependencies
 ```
 pip install -r requirements.txt
+```
+
+4️⃣ Start the FastAPI Server
+```
 uvicorn app:app --reload --port 8000
+```
+The API is now live at http://127.0.0.1:8000
+
+
+Test the API
+
+Interactive Swagger UI
+Visit http://127.0.0.1:8000/docs
+, click POST /predict, then Try it out and enter:
+```
+{
+  "text": "Looks good—schedule a demo"
+}
+```
+Click Execute to receive a JSON prediction.
+
+Example response:
+```
+{"label":"positive","confidence":0.97}
 ```
 
 ## Docker
